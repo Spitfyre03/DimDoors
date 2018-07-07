@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import org.apache.logging.log4j.Logger;
 import org.dimdev.dimdoors.proxy.IProxy;
-import org.dimdev.dimdoors.client.DDGUIHandler;
+import org.dimdev.dimdoors.shared.DDGUIHandler;
 import org.dimdev.dimdoors.shared.EventHandler;
 import org.dimdev.dimdoors.shared.ModConfig;
 import org.dimdev.dimdoors.shared.ModRecipes;

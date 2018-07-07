@@ -1,9 +1,11 @@
-package org.dimdev.dimdoors.client;
+package org.dimdev.dimdoors.shared;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.IGuiHandler;
+
+import org.dimdev.dimdoors.client.GUIRiftConfigScreen;
 import org.dimdev.dimdoors.shared.tileentities.TileEntityRift;
 
 /**
@@ -11,7 +13,6 @@ import org.dimdev.dimdoors.shared.tileentities.TileEntityRift;
  * @author Robijnvogel
  */
 public class DDGUIHandler implements IGuiHandler {
-    //TODO: move this to a non-client pacakge?
 
     public static final int RIFT = 0;
 

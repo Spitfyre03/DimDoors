@@ -16,11 +16,11 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import org.dimdev.dimdoors.DimDoors;
 import org.dimdev.dimdoors.client.TileEntityFloatingRiftRenderer;
+import org.dimdev.dimdoors.shared.DDGUIHandler;
 import org.dimdev.dimdoors.shared.ModConfig;
 
 import java.util.List;
 import net.minecraft.util.math.BlockPos;
-import org.dimdev.dimdoors.client.DDGUIHandler;
 
 public class ItemRiftConfigurationTool extends Item {
 
